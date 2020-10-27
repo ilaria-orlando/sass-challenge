@@ -3,7 +3,7 @@
   -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
   box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
 }
-$padding: 16px;
+$padding: 15px;
 
 body {
   font: 100% "Space Mono", monospace;
@@ -132,10 +132,10 @@ h6 {
 }
 
 .error {
-  background-color: green;
+  @extend .success
 }
 
 .warning {
-  background-color: green;
+  @extend .success
 
 }
